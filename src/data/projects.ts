@@ -24,7 +24,7 @@ export const projects = [
     },
     tags: ["Design", "Code"],
     url: "https://kamui-exp.vercel.app",
-    github: "https://github.com/kamui-ui/kamui",
+    // github: "https://github.com/kamui-ui/kamui",
   },
   {
     title: "Jaipur Paisley",
