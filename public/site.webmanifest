@@ -1,0 +1,21 @@
+{
+  "name": "Krishna | Frontend Engineer",
+  "short_name": "Krishna",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "oklch(0.145 0 0)",
+  "theme_color": "oklch(0.985 0 0)",
+  "description": "Passionate frontend engineer dedicated to creating beautiful and functional web applications.",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "dir": "ltr",
+  "lang": "en",
+  "scope": "/",
+  "related_applications": [],
+  "prefer_related_applications": false
+}

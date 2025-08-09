@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal portfolio website
 
-## Getting Started
+Source code for my personal portfolio website. The site showcases my projects and gives an insight into my background, my passion for web development and design, and the technologies I work with.
 
-First, run the development server:
+<a href="https://www.muskri.com">
+  <img alt="Personal portfolio website of Nikolai Lehbrink" src="https://github.com/nikolailehbrink/portfolio/blob/main/app/og-image.webp">
+</a>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Modern Technologies**: Built with [React Router 7](https://reactrouter.com/), [TypeScript](https://www.typescriptlang.org/), [MDX](https://mdxjs.com/), and [Tailwind CSS](https://tailwindcss.com/).
+- **Homepage**: A homepage with a brief introduction, a list of projects, my skills, work experience, and contact information.
+- **Custom AI Chatbot**: A [personal AI chatbot](https://www.nikolailehbr.ink/chat) capable of responding to queries about domain-specific information related to me, developed using [LLamaIndex.TS](https://ts.llamaindex.ai/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), and powered by the [OpenAI API](https://openai.com/blog/openai-api).
+- **Personal blog**: A [blog section](https://www.nikolailehbr.ink/blog) to share my thoughts and experiences. Built with [MDX](https://mdxjs.com/) to handle content management.
+- **SEO**: Optimized for search engines and social sharing
+- **Accessibility**: Build on top of [Radix UI](https://radix-ui.com/) and [shadcn/ui](https://ui.shadcn.com/docs) for accessible, modern and inclusive design.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🤗 Room for improvement
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you noticed a bug or something that could be improved, I welcome you to [file an issue](https://github.com/nikolailehbrink/portfolio/issues/new) or [open a pull request](https://github.com/nikolailehbrink/portfolio/compare) to contribute to the project.

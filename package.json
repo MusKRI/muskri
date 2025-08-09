@@ -12,6 +12,8 @@
     "@shikijs/rehype": "^3.9.2",
     "@shikijs/transformers": "^3.9.2",
     "@tailwindcss/typography": "^0.5.16",
+    "@vercel/analytics": "^1.5.0",
+    "@vercel/speed-insights": "^1.2.0",
     "boring-avatars": "^2.0.1",
     "clsx": "^2.1.1",
     "gray-matter": "^4.0.3",
