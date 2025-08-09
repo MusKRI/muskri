@@ -1,0 +1,63 @@
+:root {
+  --scrollbar-width-fallback: 17px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+  height: var(--scrollbar-width);
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #0000;
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+  background-clip: content-box;
+  border: 6px solid #0000;
+  border-radius: 16px;
+}
+
+@supports (color: color-mix(in lab, red, red)) {
+  ::-webkit-scrollbar-thumb {
+    background-color: color-mix(
+      in oklab,
+      var(--muted-foreground, #222221) 50%,
+      transparent
+    );
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  cursor: grab;
+  background-color: var(--muted-foreground, #62605b);
+}
+
+::-webkit-scrollbar-thumb:active {
+  cursor: grabbing;
+}
+
+@supports (color: color-mix(in lab, red, red)) {
+  ::-webkit-scrollbar-track {
+    background-color: color-mix(
+      in oklab,
+      var(--secondary, #222221) 75%,
+      transparent
+    );
+  }
+}
+
+::-webkit-scrollbar-track {
+  cursor: grab;
+  background-color: var(--secondary, #222221);
+}
+
+::-webkit-scrollbar-track:active {
+  cursor: grabbing;
+}
+
+.scrollbar-gutter {
+  scrollbar-gutter: stable;
+  scrollbar-width: inherit;
+}
