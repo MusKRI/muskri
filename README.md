@@ -3,18 +3,17 @@
 Source code for my personal portfolio website. The site showcases my projects and gives an insight into my background, my passion for web development and design, and the technologies I work with.
 
 <a href="https://www.muskri.com">
-  <img alt="Personal portfolio website of Nikolai Lehbrink" src="https://github.com/nikolailehbrink/portfolio/blob/main/app/og-image.webp">
+  <img alt="Personal portfolio website of Nikolai Lehbrink" src="http://github.com/MusKRI/muskri/blob/main/public/images/og.png">
 </a>
 
 ## ✨ Features
 
-- **Modern Technologies**: Built with [React Router 7](https://reactrouter.com/), [TypeScript](https://www.typescriptlang.org/), [MDX](https://mdxjs.com/), and [Tailwind CSS](https://tailwindcss.com/).
-- **Homepage**: A homepage with a brief introduction, a list of projects, my skills, work experience, and contact information.
-- **Custom AI Chatbot**: A [personal AI chatbot](https://www.nikolailehbr.ink/chat) capable of responding to queries about domain-specific information related to me, developed using [LLamaIndex.TS](https://ts.llamaindex.ai/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), and powered by the [OpenAI API](https://openai.com/blog/openai-api).
-- **Personal blog**: A [blog section](https://www.nikolailehbr.ink/blog) to share my thoughts and experiences. Built with [MDX](https://mdxjs.com/) to handle content management.
-- **SEO**: Optimized for search engines and social sharing
-- **Accessibility**: Build on top of [Radix UI](https://radix-ui.com/) and [shadcn/ui](https://ui.shadcn.com/docs) for accessible, modern and inclusive design.
-
-## 🤗 Room for improvement
-
-If you noticed a bug or something that could be improved, I welcome you to [file an issue](https://github.com/nikolailehbrink/portfolio/issues/new) or [open a pull request](https://github.com/nikolailehbrink/portfolio/compare) to contribute to the project.
+- **Modern stack**: [Next.js 15](https://nextjs.org/) (App Router) + [React 19](https://react.dev/) + [TypeScript 5](https://www.typescriptlang.org/).
+- **Homepage**: A concise intro with featured projects, skills, work experience, and contact information.
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) with [`@tailwindcss/typography`](https://github.com/tailwindlabs/tailwindcss-typography) for beautiful prose.
+- **Content & blog**: MDX via [`next-mdx-remote`](https://github.com/hashicorp/next-mdx-remote), file‑system content in `src/content/blogs`, Zod‑validated frontmatter, and automatic reading‑time.
+- **Code highlighting**: [Shiki v3](https://shiki.style/) with custom transformers (filename, copy‑to‑clipboard, line numbers, and diff highlighting) and language/file icons.
+- **Animations**: Smooth page and UI transitions powered by Motion v12.
+- **Fonts**: Optimized Google fonts via `next/font` (Geist, Inter, Barlow, Noto Sans Mono).
+- **SEO & social**: Rich metadata, Open Graph/Twitter cards, canonical URLs, and a web manifest with icons.
+- **Analytics & performance**: Built‑in [Vercel Analytics](https://vercel.com/analytics) and [Speed Insights](https://vercel.com/docs/speed-insights). Fast local DX with Turbopack.
