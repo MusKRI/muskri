@@ -116,7 +116,7 @@ export default function RootLayout({
         )}
       >
         <FadeWrapper>
-          <main className="flex grow container px-4 mx-auto justify-center py-8 sm:py-12 mt-20">
+          <main className="flex grow container px-4 mx-auto justify-center py-8 sm:py-12">
             {children}
           </main>
         </FadeWrapper>

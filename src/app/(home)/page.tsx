@@ -16,7 +16,7 @@ import ExperienceCard from "components/experience-card";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-start gap-8 sm:items-center sm:gap-16">
+    <div className="flex flex-col items-start gap-8 sm:items-center sm:gap-16 mt-20">
       <div className="relative flex items-center justify-center animate-in duration-1000 fade-in-50 zoom-in-50">
         <div
           className="absolute -inset-px animate-in rounded-[14px] bg-linear-to-tr

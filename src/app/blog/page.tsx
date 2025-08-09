@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { getAllPosts } from "@/lib/posts.server";
 import { PostTeaser } from "components/post-teaser";
+import { Blog3DCard } from "components/blog-3d-card";
 
 export const metadata: Metadata = {
   title: "Blogs",
@@ -8,20 +9,24 @@ export const metadata: Metadata = {
 };
 
 export default async function Blog() {
-  const posts = await getAllPosts();
+  // const posts = await getAllPosts();
 
   return (
-    <div className="flex flex-col gap-4 sm:items-center">
-      <h1 className="text-3xl font-semibold sm:text-center sm:text-4xl">
-        Blog
-      </h1>
-      <p className="max-w-prose text-white/70 sm:text-center">
-        A collection of my thoughts, ideas, and experiences. I write about
-        various topics, including web development, technology, and personal
-        topics.
-      </p>
+    <div className="flex flex-col gap-4 sm:items-center justify-center">
+      <Blog3DCard />
+      <div className="flex flex-col gap-4 -mt-20">
+        <p className="max-w-prose text-white/70 sm:text-center">
+          A collection of my thoughts, ideas, and experiences. I write about
+          various topics, including web development, technology, and personal
+          topics.
+        </p>
+      </div>
 
-      <ul
+      <div className="flex flex-col gap-4 mt-10">
+        <p className="text-2xl font-mono text-white/70">Blogs Soon...</p>
+      </div>
+
+      {/* <ul
         className="mt-2 grid grid-cols-1 gap-4 rounded-md md:grid-cols-2
           lg:max-w-5xl w-full"
       >
@@ -44,7 +49,7 @@ export default async function Blog() {
             No posts were found
           </p>
         )}
-      </ul>
+      </ul> */}
     </div>
   );
 }
