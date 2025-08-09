@@ -3,7 +3,7 @@
 Source code for my personal portfolio website. The site showcases my projects and gives an insight into my background, my passion for web development and design, and the technologies I work with.
 
 <a href="https://www.muskri.com">
-  <img alt="Personal portfolio website of Nikolai Lehbrink" src="http://github.com/MusKRI/muskri/blob/main/public/images/og.png">
+  <img alt="Personal portfolio website of Krishna" src="https://github.com/MusKRI/muskri/blob/main/public/images/og.png">
 </a>
 
 ## ✨ Features
