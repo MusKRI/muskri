@@ -3,6 +3,7 @@ import JaipurPaisley from "@/assets/images/projects/jaipur-paisley.png";
 import ApolloIndia from "@/assets/images/projects/apollo-india.png";
 import ApolloGreenEnergy from "@/assets/images/projects/apollo-green-energy.png";
 import PizzaJoint from "@/assets/images/projects/pizza-joint.png";
+import MaximeDesignSystem from "@/assets/images/projects/maxime-design-system.png";
 
 export type Project = {
   title: string;
@@ -47,6 +48,18 @@ export const projects = [
     },
     tags: ["Code"],
     url: "https://apolloindia.com",
+  },
+  {
+    title: "Maxime Design System",
+    description: "A fun design system",
+    image: {
+      src: MaximeDesignSystem.src,
+      height: 1201,
+      width: 1600,
+    },
+    tags: ["Code"],
+    url: "https://maxime-design-system.vercel.app/",
+    github: "https://github.com/MusKRI/maxime-design-system",
   },
   {
     title: "Pizza Joint",

@@ -136,6 +136,20 @@ export default function Test() {
               stroke="white"
               strokeWidth="2"
             ></rect>
+            <g transform="matrix(0.866025 -0.5 2.20305e-08 1 204.335 282.15)">
+              <text
+                x="80.8285"
+                y="80.4625"
+                textAnchor="middle"
+                dominantBaseline="middle"
+                fontFamily="Inter, system-ui"
+                fontWeight="700"
+                fontSize="38"
+                fill="#ffffff"
+              >
+                Blogs
+              </text>
+            </g>
           </g>
         </g>
         <defs>

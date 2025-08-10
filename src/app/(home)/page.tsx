@@ -132,7 +132,10 @@ export default function Home() {
                       overflow-x-auto border-b border-border bg-neutral-900 p-4 shadow"
                   >
                     {skillSet.map(({ name, logo: Logo, url }) => (
-                      <li key={name} className="snap-start scroll-mx-4 group">
+                      <li
+                        key={name}
+                        className="snap-start scroll-mx-4 group shrink-0"
+                      >
                         <Link
                           className="flex flex-col items-center gap-2 text-xs
                             whitespace-nowrap text-white/70
