@@ -18,7 +18,8 @@ import {
   TanStackIcon,
   SupabaseIcon,
   PrismaIcon,
-} from "@/core/icones/skills";
+  EffectTSIcon,
+} from "icones/skills";
 
 type Skill = {
   name: string;
@@ -35,21 +36,6 @@ type Skill = {
 
 export const SKILLS = {
   Frontend: [
-    // {
-    //   name: "HTML",
-    //   logo: HTML,
-    //   url: "https://developer.mozilla.org/de/docs/Web/HTML",
-    // },
-    // {
-    //   name: "CSS",
-    //   logo: CSS,
-    //   url: "https://developer.mozilla.org/de/docs/Web/CSS",
-    // },
-    // {
-    //   name: "JavaScript",
-    //   logo: JavaScript,
-    //   url: "https://developer.mozilla.org/de/docs/Web/JavaScript",
-    // },
     {
       name: "TypeScript",
       logo: TypeScriptIcon,
@@ -123,35 +109,6 @@ export const SKILLS = {
       url: "https://supabase.com/",
     },
   ],
-  // Design: [
-  //   {
-  //     name: "Figma",
-  //     logo: Figma,
-  //     url: "https://www.figma.com",
-  //   },
-  //   {
-  //     name: "Creative Cloud",
-  //     logo: CreativeCloud,
-  //     url: "https://www.adobe.com/creativecloud.html",
-  //   },
-  // ],
-  // CMS: [
-  //   {
-  //     name: "WordPress",
-  //     logo: Wordpress,
-  //     url: "https://wordpress.org",
-  //   },
-  //   {
-  //     name: "Payload",
-  //     logo: Payload,
-  //     url: "https://payloadcms.com",
-  //   },
-  //   {
-  //     name: "Sanity",
-  //     logo: Sanity,
-  //     url: "https://www.sanity.io",
-  //   },
-  // ],
   Tools: [
     {
       name: "Cursor",
@@ -172,6 +129,11 @@ export const SKILLS = {
       name: "Prisma",
       logo: PrismaIcon,
       url: "https://prisma.io",
+    },
+    {
+      name: "Effect",
+      logo: EffectTSIcon,
+      url: "https://effect.website",
     },
   ],
 } as const satisfies { [key: string]: Skill[] };

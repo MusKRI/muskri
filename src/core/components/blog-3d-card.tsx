@@ -1,6 +1,6 @@
 export const Blog3DCard = () => {
   return (
-    <div className="flex flex-col gap-4 sm:items-center transform-3d perspective-[1000px] bg-size-[8px_8px] bg-transparent [mask-image:radial-gradient(70%_30%_at_50%_45%,black_15%,transparent_90%)] [background-image:radial-gradient(oklch(from_oklch(66.65%_0.04_262.04)_l_c_h/30%)_0.5px,transparent_0.5px)] -mt-10">
+    <div className="flex flex-col gap-4 sm:items-center transform-3d perspective-[1000px] bg-size-[8px_8px] bg-transparent [mask-image:radial-gradient(70%_30%_at_50%_45%,black_15%,transparent_90%)] [background-image:radial-gradient(oklch(from_oklch(66.65%_0.04_262.04)_l_c_h/30%)_0.5px,transparent_0.5px)] -mt-17">
       <svg
         width="290"
         height="440"
@@ -141,10 +141,10 @@ export const Blog3DCard = () => {
                 dominantBaseline="middle"
                 fontFamily="Inter, system-ui"
                 fontWeight="700"
-                fontSize="38"
+                fontSize="28"
                 fill="#ffffff"
               >
-                Blogs
+                Learnings
               </text>
             </g>
           </g>

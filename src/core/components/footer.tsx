@@ -40,11 +40,6 @@ export default function Footer({
                 rel="noreferrer"
                 aria-label={name}
                 className="text-white/60 hover:text-white"
-                // onClick={() =>
-                //   track("footer-social-link", {
-                //     name,
-                //   })
-                // }
               >
                 <span className="sr-only">Link to {name} profile</span>
                 <Logo size={20} />
@@ -56,7 +51,7 @@ export default function Footer({
           <menu className="flex gap-2">
             {LEGAL_SITES.map(({ href: link, name }) => (
               <Link
-                key={link}
+                key={name}
                 href={link}
                 className="text-muted-foreground hover:text-foreground"
               >

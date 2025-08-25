@@ -1,5 +1,10 @@
-import { Barlow, Noto_Sans_Mono, Inter } from "next/font/google";
+import { Barlow, Noto_Sans_Mono, Inter, Roboto } from "next/font/google";
 import { cn } from "./classes";
+
+const fontRoboto = Roboto({
+  subsets: ["latin"],
+  variable: "--font-roboto",
+});
 
 const fontBarlow = Barlow({
   subsets: ["latin"],
@@ -20,5 +25,6 @@ const fontNotoMono = Noto_Sans_Mono({
 export const fontVariables = cn(
   fontBarlow.variable,
   fontNotoMono.variable,
-  fontInter.variable
+  fontInter.variable,
+  fontRoboto.variable
 );

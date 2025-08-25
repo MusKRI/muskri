@@ -6,10 +6,10 @@ type LegalSite = {
 export const LEGAL_SITES = [
   {
     name: "Privacy Policy",
-    href: "/privacy-policy",
+    href: "#",
   },
   {
     name: "Legal Notice",
-    href: "/legal-notice",
+    href: "#",
   },
 ] as const satisfies LegalSite[];

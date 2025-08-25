@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
@@ -8,16 +7,7 @@ import { cn } from "@/lib/classes";
 import { fontVariables } from "@/lib/fonts";
 import Footer from "components/footer";
 import { FadeWrapper } from "components/fade-wrapper";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { Header } from "@/core/components/header";
 
 const DOMAIN = process.env.NEXT_PUBLIC_APP_URL || "https://muskri.com";
 
@@ -115,6 +105,7 @@ export default function RootLayout({
           "antialiased font-sans scroll-pt-20 scroll-smooth text-pretty"
         )}
       >
+        <Header />
         <FadeWrapper>
           <main className="flex grow container px-4 mx-auto justify-center py-8 sm:py-12">
             {children}

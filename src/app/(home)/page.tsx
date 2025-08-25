@@ -113,10 +113,7 @@ export default function Home() {
             Skills
           </h2>
           <p className="mb-3 max-w-prose text-white/70">
-            I have a diverse skill set that includes frontend and backend
-            development, design, and project management. I am always eager to
-            learn new technologies and improve my skills. Here are some that I
-            have acquired over the years.
+            I ship with TypeScript, honing Effect now a days.
           </p>
 
           <div className="flex flex-wrap gap-4">

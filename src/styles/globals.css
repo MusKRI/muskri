@@ -28,7 +28,7 @@
   --color-ring: var(--ring);
 
   /* Fonts */
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-roboto);
   --font-mono: var(--font-noto-mono);
 }
 

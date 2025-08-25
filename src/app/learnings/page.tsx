@@ -8,22 +8,24 @@ export const metadata: Metadata = {
   description: "Blogs",
 };
 
-export default async function Blog() {
+export default async function Learnings() {
   // const posts = await getAllPosts();
 
   return (
     <div className="flex flex-col gap-4 sm:items-center justify-center">
       <Blog3DCard />
       <div className="flex flex-col gap-4 -mt-20">
-        <p className="max-w-prose text-white/70 sm:text-center">
+        <p className="max-w-prose text-white/70 text-center">
           A collection of my thoughts, ideas, and experiences. I write about
           various topics, including web development, technology, and personal
           topics.
         </p>
       </div>
 
-      <div className="flex flex-col gap-4 mt-10">
-        <p className="text-2xl font-mono text-white/70">Blogs Soon...</p>
+      <div className="flex flex-col gap-4 mt-4">
+        <p className="text-2xl font-mono text-white/70 text-center">
+          ...Soon...
+        </p>
       </div>
 
       {/* <ul
