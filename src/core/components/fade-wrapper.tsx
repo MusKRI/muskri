@@ -32,7 +32,7 @@ export function FadeWrapper({ children }: Props) {
   }, [scrollY]);
 
   return (
-    <div className="relative h-full flex min-h-dvh flex-col bg-pattern ">
+    <div className="relative h-full flex min-h-dvh flex-col bg-pattern">
       {/* Global top fade + blur overlay */}
       <motion.div
         className={cn(

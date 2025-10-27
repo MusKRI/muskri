@@ -24,7 +24,7 @@ export const projects = [
       width: 1600,
     },
     tags: ["Design", "Code"],
-    url: "https://kamui-exp.vercel.app",
+    url: "https://kam-ui.com",
     // github: "https://github.com/kamui-ui/kamui",
   },
   {

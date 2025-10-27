@@ -1,9 +1,3 @@
-import vanever from "@/assets/images/logos/vanever.webp";
-import moskito from "@/assets/images/logos/moskito-icon.svg";
-import jungundbillig from "@/assets/images/logos/jungundbillig.webp";
-import freelance from "@/assets/images/logos/freelance.webp";
-import hsb from "@/assets/images/logos/hsb-logo.svg";
-import cimdata from "@/assets/images/logos/cimdata-logo.svg";
 import odin from "@/assets/images/logos/odin.png";
 
 export type WorkExperience = {
@@ -22,7 +16,7 @@ export const WORK_EXPERIENCE = [
     title: "Saasaki Technology Pvt. Ltd.",
     description: "Frontend Developer",
     startDate: "2023-02-20",
-    endDate: null,
+    endDate: "2025-10-22",
     // logo: { src: vanever.src, width: 193, height: 193 },
     organization: "Web, Mobile & Software Development",
     url: "https://www.teramars.com/",
