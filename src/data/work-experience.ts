@@ -25,7 +25,7 @@ export const WORK_EXPERIENCE = [
   {
     title: "Odin Infotech",
     description: "Web Developer",
-    startDate: "2022-07-25",
+    startDate: "2022-01-17",
     endDate: "2023-02-20",
     logo: { src: odin.src, width: 496, height: 496 },
     organization: "Web, Mobile & Software Development",

@@ -4,6 +4,7 @@ import ApolloIndia from "@/assets/images/projects/apollo-india.png";
 import ApolloGreenEnergy from "@/assets/images/projects/apollo-green-energy.png";
 import PizzaJoint from "@/assets/images/projects/pizza-joint.png";
 import MaximeDesignSystem from "@/assets/images/projects/maxime-design-system.png";
+import PureUI from "@/assets/images/projects/pure-ui.png";
 
 export type Project = {
   title: string;
@@ -15,6 +16,18 @@ export type Project = {
 };
 
 export const projects = [
+  {
+    title: "Pure UI",
+    description: "Design System",
+    image: {
+      src: PureUI.src,
+      height: 1201,
+      width: 1600,
+    },
+    tags: ["Design", "Code"],
+    url: "https://pure.kam-ui.com/",
+    github: "https://github.com/MusKRI/pure-ui",
+  },
   {
     title: "Kamui",
     description: "UI hub",
