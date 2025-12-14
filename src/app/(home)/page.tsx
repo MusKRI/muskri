@@ -17,11 +17,11 @@ import ExperienceCard from "components/experience-card";
 export default function Home() {
   return (
     <div className="flex flex-col items-start gap-8 sm:items-center sm:gap-16 mt-20">
-      <div className="relative flex items-center justify-center animate-in duration-1000 fade-in-50 zoom-in-50">
+      <div className="relative flex items-center justify-center">
         <div
-          className="absolute -inset-px animate-in rounded-[14px] bg-linear-to-tr
+          className="absolute -inset-px rounded-[14px] bg-linear-to-tr
             from-amber-600 via-sky-600 to-sky-400 opacity-75 blur-2xl
-            duration-[2s] zoom-in-80"
+          "
         ></div>
         <div
           className="absolute -inset-0.5 rounded-[14px] bg-linear-to-tr
@@ -30,17 +30,13 @@ export default function Home() {
         <MyAvatar className="relative size-24 rounded-xl sm:size-40" />
       </div>
 
-      <div className="z-10 space-y-6 fade-in sm:text-center">
-        <h1
-          className="animate-in text-4xl font-semibold tracking-normal duration-1000
-            slide-in-from-bottom-40 sm:zoom-in-80"
-        >
+      <div className="z-10 space-y-6 sm:text-center">
+        <h1 className="text-4xl font-semibold tracking-normal">
           Krishna Saini
         </h1>
         <p
-          className="max-w-prose animate-in text-pretty text-white/70
-            duration-1000 slide-in-from-bottom-30 fade-in sm:text-lg
-            sm:slide-in-from-bottom-40"
+          className="max-w-prose text-pretty text-white/70
+            sm:text-lg"
         >
           I’m a <b className="text-white">Frontend Engineer</b> focused on
           crafting intuitive interfaces and delightful micro-interactions.
@@ -48,29 +44,15 @@ export default function Home() {
         </p>
       </div>
 
-      <div
-        className="relative animate-in duration-1000 slide-in-from-bottom-5
-          sm:slide-in-from-top-5"
-      >
-        <div
-          className="absolute -top-1/12 left-1/5 h-80 w-40 rotate-45 animate-in
-            bg-neutral-500/40 blur-2xl duration-[2.5s] fade-in"
-        ></div>
-        <div
-          className="absolute -top-12 left-2/5 h-50 w-24 rotate-45 animate-in
-            bg-neutral-500/50 blur-3xl duration-[3s] fade-in lg:-top-1/5
-            lg:left-2/5 lg:h-96 lg:w-36"
-        ></div>
+      <div className="relative">
+        <div className="absolute -top-1/12 left-1/5 h-80 w-40 rotate-45 bg-neutral-500/40 blur-2xl"></div>
+        <div className="absolute -top-12 left-2/5 h-50 w-24 rotate-45 bg-neutral-500/50 blur-3xl lg:-top-1/5 lg:left-2/5 lg:h-96 lg:w-36"></div>
         <div
           className="relative grid grid-cols-1 gap-8 rounded-3xl border-t border-white/10
             bg-linear-to-b from-neutral-900/90 to-neutral-950/50 p-4 py-6
             max-sm:-mx-4 sm:grid-cols-2 sm:p-8 lg:grid-cols-3"
         >
-          <div
-            className="absolute -top-px left-1/4 h-px w-1/3 animate-in
-              bg-linear-to-r from-transparent via-white/60 to-transparent
-              duration-[2s] slide-in-from-left-100 fade-in-40"
-          ></div>
+          <div className="absolute -top-px left-1/4 h-px w-1/3 bg-linear-to-r from-transparent via-white/60 to-transparent"></div>
           <div className="flex flex-col gap-2 sm:row-span-2">
             <h2 className="flex items-center gap-1 text-2xl font-semibold tracking-normal">
               <PiProjectorScreenChartDuotone size={28} />
@@ -92,16 +74,7 @@ export default function Home() {
           </div>
 
           {projects.map((project, index) => (
-            <ProjectTeaser
-              className={cn(
-                "animate-in duration-700 fade-in-50 sm:slide-in-from-bottom-25",
-                index % 2 === 0
-                  ? "sm:duration-1000 sm:slide-in-from-bottom-35"
-                  : ""
-              )}
-              key={project.title}
-              {...project}
-            />
+            <ProjectTeaser key={project.title} {...project} />
           ))}
         </div>
       </div>
@@ -129,15 +102,10 @@ export default function Home() {
                       overflow-x-auto border-b border-border bg-neutral-900 p-4 shadow"
                   >
                     {skillSet.map(({ name, logo: Logo, url }) => (
-                      <li
-                        key={name}
-                        className="snap-start scroll-mx-4 group shrink-0"
-                      >
+                      <li key={name} className="scroll-mx-4 group shrink-0">
                         <Link
                           className="flex flex-col items-center gap-2 text-xs
-                            whitespace-nowrap text-white/70
-                            grayscale-100 transition-[filter_color] duration-300
-                            hover:text-white hover:grayscale-0"
+                            whitespace-nowrap text-white/70"
                           href={url}
                           target="_blank"
                           rel="noopener noreferrer"

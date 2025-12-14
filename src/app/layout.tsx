@@ -106,11 +106,13 @@ export default function RootLayout({
         )}
       >
         <Header />
-        <FadeWrapper>
+        {/* <FadeWrapper> */}
+        <div className="relative h-full flex min-h-dvh flex-col bg-pattern">
           <main className="flex grow container px-4 mx-auto justify-center py-8 sm:py-12">
             {children}
           </main>
-        </FadeWrapper>
+        </div>
+        {/* </FadeWrapper> */}
         <Footer />
         <SpeedInsights />
         <Analytics />

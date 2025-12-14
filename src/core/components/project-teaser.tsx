@@ -35,7 +35,7 @@ export function ProjectTeaser({
           </span>
         ))}
       </div>
-      <div className="relative transition-[filter_color] duration-300">
+      <div className="relative">
         <div
           className="absolute inset-0 bg-linear-to-b from-transparent
             via-transparent to-neutral-900 to-95%"
@@ -65,7 +65,7 @@ export function ProjectTeaser({
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-1 rounded-[12px] px-3 py-1.5 text-white bg-(--color-sky-600) drop-shadow-[0px_0px_3px_var(--color-sky-700)] text-sm text-shadow-[0_1px_0_0_#e07000] shadow-[inset_0_0_0_1px_var(--color-sky-600),inset_0_2px_0_0_var(--color-sky-700)] [transition:translate_200ms_ease-out,scale_120ms_ease-out] active:translate-y-0.5 active:scale-98"
+                className="inline-flex items-center justify-center gap-1 rounded-[12px] px-3 py-1.5 text-white bg-(--color-sky-600) drop-shadow-[0px_0px_3px_var(--color-sky-700)] text-sm text-shadow-[0_1px_0_0_#e07000] shadow-[inset_0_0_0_1px_var(--color-sky-600),inset_0_2px_0_0_var(--color-sky-700)]"
               >
                 <PiLinkSimpleDuotone size={16} />
                 Visit
@@ -76,7 +76,7 @@ export function ProjectTeaser({
                 href={github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-1 size-8 bg-sky-950 text-sky-400 hover:bg-sky-900 rounded-[12px] text-sm text-shadow-[0_1px_0_0_#e07000] [transition:translate_200ms_ease-out,scale_120ms_ease-out] active:translate-y-0.5 active:scale-98"
+                className="inline-flex items-center justify-center gap-1 size-8 bg-sky-950 text-sky-400 hover:bg-sky-900 rounded-[12px] text-sm text-shadow-[0_1px_0_0_#e07000]"
               >
                 <PiGithubLogoDuotone size={18} />
               </Link>
